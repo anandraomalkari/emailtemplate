@@ -144,11 +144,24 @@
       padding: 15px;
       box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
       gap: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .cardData{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cardData h3{
+        color: #707070;
+        margin-bottom: 7px;
     }
 
     .card img {
-      width: 40px;
-      height: 40px;
+      width: 60px;
+      height: 60px;
       margin-bottom: 10px;
     }
 
@@ -384,7 +397,10 @@
           <img
             src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0qxJcWLGMQAi6sKirE8vhfciCInWJLbjY8ZMQ0LwtcvhoIQhAlGmrzEzTgHriiWfAFZ6clZ1F8sP15auj2odIYq4KQ2NKJwkJtEEEq29Arz_mIqrhUonL6rwmV5i2l3Tte8BXZBiIgDVqSPd-xaCRFwxWO94955jv84a6xBocD8HUsqdeuUu-eTv4hsA/s320/licensing.png"
             alt="Analytics">
-          <p>Get complete visibility into upcoming renewals — SciqusAMS empowers you to act early, engage customers, and secure predictable recurring revenue.</p>
+            <div class="cardData">
+                <h3>Renewals</h3>
+                <p>Get complete visibility into upcoming renewals — SciqusAMS empowers you to act early, engage customers, and secure predictable recurring revenue.</p>
+            </div>
         </div>
         <!-- <div class="card">
           <img
